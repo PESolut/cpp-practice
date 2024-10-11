@@ -1,0 +1,18 @@
+# Ignore compiled output
+hello-world
+
+# Ignore all executables
+*
+!*.*
+!*/
+
+# Ignore common C++ compilation artifacts
+*.o
+*.out
+*.exe
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
